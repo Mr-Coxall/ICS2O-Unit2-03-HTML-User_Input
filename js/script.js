@@ -11,8 +11,8 @@ function addAgeClicked () {
   let perimeter
 
   // input
-  length = parseInt(document.getElementById("lengthOfRectangle").value)
-  width = parseInt(document.getElementById("widthOfRectangle").value)
+  length = parseInt(document.getElementById("length-of-rectangle").value)
+  width = parseInt(document.getElementById("width-of-rectangle").value)
 
   // process
   area = length * width

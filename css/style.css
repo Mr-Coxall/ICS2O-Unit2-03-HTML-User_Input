@@ -13,21 +13,21 @@ h1 {
   font: 16pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 20pt;
-  color: SlateBlue;
+  color: slateblue;
 }
 
 h2 {
   font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 18pt;
-  color: MediumSeaGreen;
+  color: mediumseagreen;
 }
 
 h3 {
   font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 16pt;
-  color: Violet;
+  color: violet;
 }
 
 p.subheader {
