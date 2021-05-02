@@ -2,23 +2,15 @@
 //
 // Created by: Mr. Coxall
 // Created on: Sep 2020
-// This script does basic math
+// This file contains the JS functions for index.html
 
-function addAgeClicked () {
-  let length
-  let width
-  let area
-  let perimeter
+function enterClicked () {
+  // this function gets users firdt name and age and shows it back to user
 
   // input
-  length = parseInt(document.getElementById("length-of-rectangle").value)
-  width = parseInt(document.getElementById("width-of-rectangle").value)
-
-  // process
-  area = length * width
-  perimeter = 2 * (length + width)
+  const firstName = document.getElementById("first-name").value
+  const userAge = parseInt(document.getElementById("age-entered").value)
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + length + ' x ' + width + ' = ' + area + ' or ' + area + ' cm²'
-  document.getElementById('perimeter').innerHTML = 'Perimeter is: 2 x (' + length + ' + ' + width + ') = ' + perimeter + ' or ' + perimeter + ' cm'
+  document.getElementById('address').innerHTML = 'Your info is: ' + firstName + ', age ' + userAge + '.'
 }
