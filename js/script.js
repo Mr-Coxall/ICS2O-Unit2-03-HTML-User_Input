@@ -4,9 +4,10 @@
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
-function enterClicked () {
-  // this function gets users first name and age and shows it back to user
-
+/*
+ * this function gets users first name and age and shows it back to user
+*/
+function enterClicked() {
   // input
   const firstName = document.getElementById("first-name").value
   const userAge = parseInt(document.getElementById("age-entered").value)
